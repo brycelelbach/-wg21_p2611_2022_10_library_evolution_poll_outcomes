@@ -88,7 +88,7 @@ Poll 2.1: Publish the Library Fundamentals v3 Technical Specification now as per
 <td>0
 <td>3
 <td>2
-<td>Weak consensus in favor.
+<td>Weak consensus in favor. We will proceed with publishing the Library Fundamentals v3 Technical Specification now as per [P2631R0].
 
 <tr>
 <td>
@@ -98,7 +98,7 @@ Poll 2.2: Don’t publish the Library Fundamentals v3 Technical Specification, b
 <td>1
 <td>3
 <td>5
-<td>No consensus.
+<td>No consensus. We will proceed with publishing the Library Fundamentals v3 Technical Specification now as per [P2631R0].
 
 <tr>
 <td>
