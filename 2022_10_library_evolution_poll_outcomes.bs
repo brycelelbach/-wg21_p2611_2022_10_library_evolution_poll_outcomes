@@ -1,0 +1,404 @@
+<pre class='metadata'>
+Title: 2022-10 Library Evolution Poll Outcomes
+Shortname: D2649
+Revision: 0
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
+Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
+Editor: Inbal Levi — Ranges Chair (SG9) and Library Mailing List Review Manager, sinbal2l@gmail.com
+URL: https://wg21.link/P2649
+!Source: <a href="https://github.com/brycelelbach/wg21_p2649_2022_10_library_evolution_poll_outcomes/blob/main/2022_10_library_evolution_poll_outcomes.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2649_2022_10_library_evolution_poll_outcomes/issues
+Metadata Order: Editor, This Version, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+Default Biblio Display: direct
+</pre>
+
+<style>
+table, th, tr, td {
+  border: 2px solid black !important;
+}
+@media (prefers-color-scheme: dark) {
+  table, th, tr, td {
+    border: 2px solid white !important;
+  }
+}
+</style>
+
+# Introduction # {#introduction}
+
+In 2022-10, the C++ Library Evolution group conducted a series of
+  electronic decision polls [[P2648R0]].
+This paper provides the results of those polls and summarizes the results.
+
+In total, 24 people participated in the polls.
+Some participants opted to not vote on some polls.
+Thank you to everyone who participated, and to the proposal authors for all
+  their hard work!
+
+# Poll Outcomes # {#poll-outcomes}
+
+* SF: Strongly Favor.
+* WF: Weakly Favor.
+* N: Neutral.
+* WA: Weakly Against.
+* SA: Strongly Against.
+
+<table>
+<tr>
+<th>Poll
+<th>SF
+<th>WF
+<th>N
+<th>WA
+<th>SA
+<th>Outcome
+
+<tr>
+<td>
+Poll 1.1: Return [[P2539R3]] print To Terminal Synchronization to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>8
+<td>11
+<td>0
+<td>1
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td>
+Poll 1.2: Send the proposed resolution to [LWG3515] [stacktrace.basic.nonmem]: operator<< Should Be Less Templatized to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>9
+<td>5
+<td>0
+<td>1
+<td>1
+<td>Consensus in favor.
+
+<tr>
+<td>
+Poll 2.1: Publish the Library Fundamentals v3 Technical Specification now as per [[P2631R0]].
+<td>6
+<td>5
+<td>0
+<td>3
+<td>2
+<td>Weak consensus in favor.
+
+<tr>
+<td>
+Poll 2.2: Don’t publish the Library Fundamentals v3 Technical Specification, but evaluate its contents for inclusion into a future International Standard.
+<td>4
+<td>4
+<td>1
+<td>3
+<td>5
+<td>No consensus.
+
+<tr>
+<td>
+Poll 2.3: Return [[P1083R6]] resource_adaptor to Library Working Group for C++26, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>1
+<td>7
+<td>1
+<td>0
+<td>1
+<td>Consensus in favor.
+
+<tr>
+<td>
+Poll 2.4: Send [[P2587R3]] to_string Or Not to_string to Library Working Group for C++26, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>11
+<td>6
+<td>0
+<td>0
+<td>0
+<td>Unanimous consensus in favor.
+
+<tr>
+<td>
+Poll 2.5: Send [[P2495R1]] Interfacing stringstreams With string_view to Library Working Group for C++26, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>6
+<td>8
+<td>2
+<td>2
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td>
+Poll 2.6: Send [[P2510R3]] Formatting Pointers to Library Working Group for C++26, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>6
+<td>9
+<td>1
+<td>0
+<td>1
+<td>Consensus in favor.
+
+<tr>
+<td>
+Poll 2.7: Send [[P2572R0]] std::format Fill Character Allowances to Library Working Group for C++26, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>2
+<td>10
+<td>1
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td>
+Poll 2.8: Send [[P2511R2]] Beyond operator(): NTTP Callables In Type-Erased Call Wrappers to Library Working Group for C++26, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>4
+<td>7
+<td>3
+<td>1
+<td>2
+<td>No consensus.
+
+<tr>
+<td>
+Poll 2.9: Send [[P2592R2]] Hashing Support For chrono Value Classes to Library Working Group for C++26, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>8
+<td>8
+<td>1
+<td>1
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td>
+Poll 2.10: Send [[P0543R2]] Saturation Arithmetic to Library Working Group for C++26, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>4
+<td>11
+<td>0
+<td>1
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td>
+Poll 2.11: Send [[P0870R4]] is_convertible_without_narrowing to Library Working Group for C++26, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>9
+<td>6
+<td>1
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td>
+Poll 2.12: Send [[P2614R1]] Deprecate numeric_limits::has_denorm to Library Working Group for C++26, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>6
+<td>7
+<td>2
+<td>0
+<td>0
+<td>Poll withdrawn due to incorrect ship vehicle. It will be retaken targeting C++23 in the next electronic polling period.
+
+</table>
+
+# Selected Poll Comments # {#poll-comments}
+
+## C++26 and Technical Specification Polls ## {#poll-comments-cpp26-and-ts}
+
+### [[P2631R0]] Publish The Library Fundamentals v3 Technical Specification Now
+
+> The decision to publish a TS (or not) rests with the plenary, not LEWG. To the extent this poll is meaningful, I prefer to publish than to leave it in limbo.
+>
+> — Strongly Favor
+
+> We should publish this material as-is now instead of rebasing it again. After the publication of LibFunTSv3 we should have a plenary vote on whether we want to continue doing LibFunTS in the future.
+>
+> — Strongly Favor
+
+> This vote is aligned with my personal view, but I am choosing that vote in a way that would lead to plenary (full committee) decision on the treatment of LFTSv3. The start and additions to the document was done by plenary votes.
+>
+> — Strongly Favor
+
+> We committed to this TS; we put work into it; paper authors rightly expect their work to get published. There's no apparent reason to delay the (already late) TS any further.
+>
+> — Strongly Favor
+
+> It does not serve the broader community to take the document already prepared and keep it as an internal paper indefinitely.
+>
+> — Weakly Favor
+
+> The work is done, there are benefits to having a TS, so let's just go ahead and push the button.
+>
+> — Weakly Favor
+
+> This option seems like the least work for the most gain.  It's a bit troubling that the document has been around for so long that the way WG21 treats TSes has changed.  On the other hand, if somebody is willing to do the work of rebasing and updating the document, then the document must have value for someone.
+>
+> — Weakly Favor
+
+> I don't think my experience is enough to estimate the implications
+>
+> — Did Not Participate
+
+> We should evaluate the parts of the specification for inclusion into the standard and abandon the TS.
+>
+> — Weakly Against
+
+> The TS model does not work very well for libraries, we should get the useful facilities into the standard and stop working on the rest
+>
+> — Weakly Against
+
+> LFTSes fail to provide more feedbacks than regularly updated papers, and are generally a waste of time.
+> Indecisions in regards to specific papers cannot be solved by more paperwork.
+> Bring back individual papers for consideration for C++26.
+>
+> — Strongly Against
+
+> 1. LFTS is not Fit-For-Purpose.
+> 2. It is unclear why we are polling this, given that (a) it utterly failed to reach consensus in LEWG (3-5-3-4-2) & (b) is likely to be straw polled in Kona plenary regardless of the outcome of this electronic poll.
+>
+> My objection is that the intent of having that LFTS was to answer open questions before deciding whether or not to put these libraries into the IS.  With the exception of scope_guard, every library in the LFTS has had at least five years to get feedback; some have had seven years.  AFAIK, the purpose of the LFTS has not changed, so why are we not deciding what to do with the libraries in it?
+>
+> If the purpose has changed and now WG21 wants to keep these libraries in the LFTS forever, then we should state that clearly and unambiguously and ultimately vote on that, and stop pretending that the LFTS has a different purpose.
+>
+> Based on this history, I don't believe that LFTS3 will get us any feedback on the one new feature proposed for it (scope_guard) either.
+>
+> The LFTS3 is itself misleading.  [general.plans] states:
+>
+> "The C++ committee intends to release new versions of this technical specification periodically, containing the library extensions we hope to add to a near-future version of the C++ Standard. Future versions will define their contents in std::experimental::fundamentals_v4, std::experimental::fundamentals_v5, etc., with the most recent implemented version inlined into std::experimental."
+>
+> While some committee members are okay with publishing knowingly misleading statements in non-normative sections of documents, I am not and will vote strongly against approving such a document.
+>
+> Another misleading statement from [general.plans]:
+>
+> "When an extension defined in this or a future version of this technical specification represents enough existing practice, it will be moved into the next version of the C++ Standard by removing the experimental::fundamentals_vN segment of its namespace and by removing the experimental/ prefix from its header's path."
+>
+> If that isn't our plan, I cannot sign off on it.
+>
+> — Strongly Against
+
+### Don't Publish The Library Fundamentals v3 Technical Specification
+
+> LFTSes fail to provide more feedbacks than regularly updated papers, and are generally a waste of time.
+> Indecisions in regards to specific papers cannot be solved by more paperwork.
+> Bring back individual papers for consideration for C++26.
+>
+> — Strongly Favor
+
+> The TS model does not work very well for libraries, we should get the useful facilities into the standard and stop working on the rest
+>
+> — Strongly Favor
+
+> Given that we have had 5-7 years to get feedback on all of the libraries in this document except for scope_guard, the time has come to eliminate it and decide once and for all if the features in this document should be added to the IS or not.
+>
+> As for scope_guard, given the lack of feedback we've gotten on the other features over the last 5-7 years, a LFTS3 with only scope_guard does not seem to be a good use of our resources.  LEWG should come up with a better plan to make the hard design decisions necessary to add scope_guard to the IS.
+>
+> — Weakly Favor
+
+> If we don't publish the TS, we should actively consider the contents for inclusion in the IS rather than just abandoning them.
+>
+> — Weakly Favor
+
+> I don't think my experience is enough to estimate the implications, but this seems like the cautious route
+>
+> — Weakly Favor
+
+> We should evaluate the parts of the specification for inclusion into the standard and abandon the TS.
+>
+> — Weakly Favor
+
+> I wouldn't mind if we did this, as long as this includes the possibility of breaking up the document into separate proposals, or dropping the whole thing.
+>
+> — Neutral
+
+> I have not adequately followed discussion of this paper and do not have a sufficiently informed opinion on it.
+>
+> — Did Not Participate
+
+> I have not participated in the corresponding discussions. But, we should absolutely consider its content for inclusion in a future standard!
+>
+> — Did Not Participate
+
+> Presumably this is meant to lead to WG21 in plenary moving to withdraw the work item (since otherwise it would just be a poll for the status quo).  There is an argument that failure of Poll 1 would motivate such a move, but that hasn't happened yet.
+>
+> — Weakly Against
+
+> The choices where we don't publish the TS don't help anyone.
+>
+> — Weakly Against
+
+> We shouldn't throw the baby out with the bathwater, so I'm SA not publishing LibFunTSv3. But yes, we should evaluate which features we actually want in the IS (the rest should be removed from the TS). IMNSHO there should be a plenary poll whether we want to commit to doing LibFunTSv4.
+>
+> — Strongly Against
+
+> This vote is aligned with my personal view, but I am choosing that vote in a way that would lead to plenary (full committee) decision on the treatment of LFTSv3. The start and additions to the document were done by plenary votes.
+>
+> — Strongly Against
+
+> The decision to publish a TS (or not) rests with the plenary, not LEWG. To the extent this poll is meaningful, I prefer to publish than to leave it in limbo.
+>
+> — Strongly Against
+
+> The latter is not dependent on the former. I.e. evaluate LFTS contents for IS inclusion as soon as it makes sense. But that's an orthogonal issue from getting the LFTS out.
+>
+> — Strongly Against
+
+### [[P2511R2]] Beyond `operator()`: NTTP Callables In Type-Erased Call Wrappers
+
+> Broadens usability of type-erased function wrappers, making it possible to wrap more "functions".
+>
+> — Strongly Favor
+
+> Easier, safer and more efficient
+>
+> — Strongly Favor
+
+> I've wanted to do this in my own code and it'd be good to get away from forcing choosing between member functions which are descriptive and require boilerplate to use with functional interfaces and operator() which works with functional interfaces but which isn't descriptive.
+>
+> — Weakly Favor
+
+> This looks like a useful facility with parallels in other programming languages.  The paper explains why an expansion of lambdas could not straightforwardly replace this.
+>
+> — Weakly Favor
+
+> I believe I understand how this is being used and I can imagine it improving the compiler's ability to optimize code.
+>
+> — Weakly Favor
+
+> The generalization of std::integer_constant is needful, but making it simultaneously generic of name and specifically recognized by the std::function-like components is a bit surprising.
+>
+> — Neutral
+
+> I'm not sold on this.
+>
+> The desire expressed by some for terser lambdas is not something we should try to paper over in the library.
+> This fails in the presence of overload sets and the name chosen aren't great either.
+> I wonder how often this would end up being used, writing a lambda is probably faster, if only because that's the intuitive approach powered by muscle memory.
+> If anything the examples suffer more of the clunkyness of std::forward.  Given https://wg21.link/p0644r1:
+>
+> ```
+> pack.start([&obj] (T &&... args)  { return obj.send(>>args...); });
+> ```
+>
+> — Neutral
+
+> This feels like a significant complication to the API, without any attempt to quantify the benefit.
+>
+> — Neutral
+
+> I have not adequately followed discussion of this paper and do not have a sufficiently informed opinion on it.
+>
+> — Did Not Participate
+
+> Though I support the intent, I am not convinced that the non_type<> wrapper is the right thing here.
+>
+> — Weakly Against
+
+> Seems very weakly motivated. If we had constexpr function parameters, would be pointless. Doesn't seem worthwhile to pursue.
+>
+> — Strongly Against
+
+> In contrast to function_ref, I do not see this constructor as necessary, as bind_front with empty functor could be apple to achieve the same effects, i.e. it would be sufficient to make nttp callable. This would also benefit other use cases, that want to bind a member with an object using bind_front.
+>
+> — Strongly Against
+
